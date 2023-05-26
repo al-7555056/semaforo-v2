@@ -44,9 +44,9 @@ basic.forever(function () {
 basic.forever(function () {
     if (Número <= 5) {
         led.enable(true)
-        basic.pause(100)
+        basic.pause(500)
         led.enable(false)
-        basic.pause(100)
+        basic.pause(500)
     } else {
         led.enable(true)
     }
